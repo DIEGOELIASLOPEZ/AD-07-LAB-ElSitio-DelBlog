@@ -17,7 +17,10 @@ html {
 }
 
 body {
-  background-color: var(--papaya-whip);
+  background-image: url("src/img/fondo.jpeg");
+  background-repeat: repeat;
+  background-attachment: fixed; 
+  object-fit: cover;
 }
 
 h1 {
