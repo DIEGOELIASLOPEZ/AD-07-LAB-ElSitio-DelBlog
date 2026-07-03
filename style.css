@@ -1,5 +1,22 @@
+:root {
+  --tea-green: #ccd5aeff;
+  --beige: #e9edc9ff;
+  --cornsilk: #fefae0ff;
+  --papaya-whip: #faedcdff;
+  --light-bronze: #d4a373ff;
+
+  --negro: #000;
+  --blanco: #000;
+
+  --fuentePrincipal: 'Staatliches', cursive;
+}
+
+/* Ekemplo de como usar las variales
+  background-color: var(--tea-green); 
+*/
+
+
 html {
-    height: 100%;
-    width: 100%;
-  }
-  
+  height: 100%;
+  width: 100%;
+}
