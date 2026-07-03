@@ -6,17 +6,112 @@
   --light-bronze: #d4a373ff;
 
   --negro: #000;
-  --blanco: #000;
+  --blanco: #ffffff;
 
-  --fuentePrincipal: 'Staatliches', cursive;
 }
-
-/* Ekemplo de como usar las variales
-  background-color: var(--tea-green); 
-*/
 
 
 html {
   height: 100%;
   width: 100%;
+}
+
+body {
+  background-color: var(--papaya-whip);
+}
+
+h1 {
+  text-align: center;
+  font-size: 10rem;
+  color: #432818;
+  margin: 0;
+  line-height: 1;
+}
+
+.contenedor {
+  width: 70%;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.h2-header {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.h1-span {
+  color: var(--blanco);
+}
+
+
+.header-contenedor {
+  position: relative;
+  height: 50rem;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.contendio-header {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(212, 163, 115, 0.313);
+  flex-direction: column;
+}
+
+.h2-contenido {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.header-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center
+}
+
+.imagenes-contenido-pincipal {
+  max-width: 50%;
+  border: 2px solid var(--light-bronze);
+}
+
+.parrafo-contendio {
+  font-size: 20px;
+  text-align: justify;
+  background-color: var(--cornsilk);
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.alimentacion,
+.contendios {
+  padding-top: 5rem;
+}
+
+.alimentacion-contenido {
+  display: flex;
+  gap: 30px;
+}
+
+
+
+.contendios {
+
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.imagenes-contendios {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid var(--light-bronze);
+  margin-bottom: 1rem;
+
 }
