@@ -11,39 +11,61 @@
     <div id="nav-menu"></div>
 
     <div class="container-principal">
-        <!-- <header class="encabezado">
+        <header class="encabezado">
             <h1>Contactanos</h1>
             <p class="subtitle">¿Tienes alguna duda o proyecto en mente? ¡Estamos aquí para escucharte!<br>Envíanos un mensaje y cuéntanos cómo podemos ayudarte.</p>
-        </header>*/ -->
+        </header>
         
         <main>
                 <section class="seccion-contacto">
-                    <h1 class="titulo-principal">Contactanos</h1>
-                    <p class="descripcion-principal">¿Tienes alguna duda o proyecto en mente? ¡Estamos aquí para escucharte!</p>
-                    <p class="descripcion-secundaria">Envíanos un mensaje y cuéntanos cómo podemos ayudarte.</p>
-
-                <form class="formulario-contacto" action="#" method="post">
-                    <div class="campo-formulario">
+                    
+                  <div class="contenedor-contacto">
+                    <form class="formulario-contacto" action="#" method="post">
+                      <div class="campo-formulario">
                         <label for="nombre" class="etiqueta-campo">Nombre *</label>
                         <input type="text" id="nombre" name="nombre" class="entrada-texto" placeholder="Tu nombre completo" />
+                      </div>
+
+                      <div class="campo-formulario">
+                          <label for="email" class="etiqueta-campo">Email *</label>
+                          <input type="email" id="email" name="email" class="entrada-texto" placeholder="tucorreo@gmail.com" />
+                      </div>
+
+                      <div class="campo-formulario">
+                        <label for="mensaje" class="etiqueta-campo">Mensaje *</label>                          <textarea id="mensaje" name="mensaje" class="area-texto" placeholder="Cuentanos..."></textarea>
+                        </div>
+
+                      <div class="campo-boton">
+                        <button type="submit" class="boton-enviar">Enviar mensaje</button>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="columna-informacion">
+                    <h2 class="subtitulo-informacion">Información de Contacto</h2>
+                    
+                    <div class="bloque-informacion">
+                      <h3 class="titulo-bloque">Correos Electrónicos</h3>
+                      <p class="texto-informacion">contacto@empresaejemplo.com</p>
+                      <p class="texto-informacion">soporte@empresaejemplo.com</p>
+                      <p class="texto-informacion">ventas@empresaejemplo.com</p>
                     </div>
 
-                    <div class="campo-formulario">
-                        <label for="email" class="etiqueta-campo">Email *</label>
-                        <input type="email" id="email" name="email" class="entrada-texto" placeholder="tucorreo@gmail.com" />
+                    <div class="bloque-informacion">
+                      <h3 class="titulo-bloque">Teléfonos</h3>
+                      <p class="texto-informacion">+52 55 1234 5678</p>
+                      <p class="texto-informacion">+52 55 8765 4321</p>
+                      <p class="texto-informacion">+52 55 2468 1357</p>
                     </div>
 
-                    <div class="campo-formulario">
-                    <label for="mensaje" class="etiqueta-campo">Mensaje *</label>
-                    <textarea id="mensaje" name="mensaje" class="area-texto" placeholder="Cuentanos..."></textarea>
-                    </div>
+                  </div>
+                </div>
 
-                    <div class="campo-boton">
-                    <button type="submit" class="boton-enviar">Enviar mensaje</button>
-                    </div>
-                </form>
-    </section>
+
+
+                </section>
         </main>
     </div>
 </body>
+
 </html>

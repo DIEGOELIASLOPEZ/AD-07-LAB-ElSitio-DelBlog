@@ -11,9 +11,7 @@
   --fuentePrincipal: 'Staatliches', cursive;
 }
 
-/* Ekemplo de como usar las variales
-  background-color: var(--tea-green); 
-*/
+
 
 html {
   height: 100%;
@@ -22,23 +20,14 @@ html {
 * {
   box-sizing: border-box;
 }
-/*body {
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif, cursive;
-    background-color: #fefae0ff; /* Papaya Whip - Fondo de la página */
-    /*min-height: 100vh;
-    display: flex;    
-    align-items: center;
-    justify-content: center;
-    padding: 40px 20px;
-}*/
 
 .container-principal{
-    max-width: 700px;
-    width: 50%;
+    max-width: 90%;
+    width: 80%;
     margin: 0 auto;
     background-color: var(--tea-green);
     padding: 3px 15px 3px 15px;
+  
 }
 
 .container {
