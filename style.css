@@ -14,8 +14,32 @@
 /* Ekemplo de como usar las variales
   background-color: var(--tea-green); 
 */
+.footerColor{
+  border: 2px dashed;
+  color: #432818;
+}
+#contenedorColor {
+  background-color: #ccd5aeff;
+  color: #432818;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+#spanPerrunos{
+  color: white;
+}
 
-
+#contenedorColor ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#contenedorColor li {
+  margin-bottom: 8px;
+}
 html {
   height: 100%;
   width: 100%;
